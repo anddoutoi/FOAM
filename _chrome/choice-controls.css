@@ -1,0 +1,17 @@
+
+.multiple-choice select,
+.single-choice select
+{
+	display: block;
+}
+
+fieldset.multiple-choice
+{
+
+}
+
+fieldset .options
+{
+	list-style: none;
+	margin: 0; padding: 0;
+}
