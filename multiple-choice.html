@@ -1,54 +1,37 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html lang="sv">
+<!DOCTYPE html>
+<html class="no-js" lang="en">
 	<head>
-	
-		<!-- http equivalent meta elements -->
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-		
-		<!-- other meta elements -->
-		<meta name="description" content="Page description goes here">
-		
-		<title>FOAM - Multiple Choice Controls</title>
-		
-		<!-- assets -->
-		<link rel="stylesheet" type="text/css" href="/_assets/chrome/build-1289471765.css">
-		
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="stylesheet" href="foam.css">
 	</head>
 	<body>
-		<form action="">
+		<form action="#">
+			<h1>Multiple Choice</h1>
 
-			<!-- default -->
-			<div class="multiple-choice">
-				<label for="">control legend</label>
-				<select multiple="multiple" name="control_name[]" id="">
-					<option value="option_value_1">option label 1</option>
-					<option value="option_value_2">option label 2</option>
-					<option value="option_value_3">option label 3</option>
-				</select>
-			</div>
-
-			<!-- verbose -->
 			<fieldset class="multiple-choice">
-				<legend>control legend</legend>
-				<ul class="options">
+				<legend>Multiple Choice (verbose)</legend>
+				<ol class="options">
 					<li>
-						<input type="checkbox" name="control_name[]" id="" value="option_value_1">
-						<label for="">option label 1</label>
+						<input type="checkbox" name="" value=""><label>Option 1</label>
 					</li>
 					<li>
-						<input type="checkbox" name="control_name[]" id="" value="option_value_2">
-						<label for="">option label 2</label>
+						<input type="checkbox" name="" value=""><label>Option 2</label>
 					</li>
 					<li>
-						<input type="checkbox" name="control_name[]" id="" value="option_value_3">
-						<label for="">option label 3</label>
+						<input type="checkbox" name="" value=""><label>Option 3</label>
 					</li>
-				</ul>
+				</ol>
 			</fieldset>
 
+			<div class="multiple-choice">
+				<label for="">Multiple Choice (compact)</label><span class="br"><br></span>
+				<select name="" multiple>
+					<option value="">Option 1</option>
+					<option value="">Option 2</option>
+					<option value="">Option 3</option>
+				</select>
+			</div>
 		</form>
-
-		<!-- scripts -->
-		<script type="text/javascript" src="/_assets/chrome/build-1289471765.css"></script>
 	</body>
 </html>

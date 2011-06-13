@@ -1,46 +1,37 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html lang="en">
+<!DOCTYPE html>
+<html class="no-js" lang="en">
 	<head>
-	
-		<!-- http equivalent meta elements -->
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-		
-		<!-- other meta elements -->
-		<meta name="description" content="Page description goes here">
-		
-		<title>FOAM - Boolean Choice Controls</title>
-		
-		<!-- assets -->
-		<link rel="stylesheet" type="text/css" href="./_chrome/bom.css">
-		
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="stylesheet" href="foam.css">
 	</head>
 	<body>
-		<form action="">
+		<form action="#">
+			<h1>Boolean Choice</h1>
 
-			<!-- default -->
-			<div class="boolean-choice">
-				<input type="checkbox" name="control_name" id="">
-				<label for="">control legend</label>
-				<p>Lorem ipsum dolar sit amet&hellip;</p>
-			</div>
-
-			<!-- verbose -->
 			<fieldset class="boolean-choice">
-				<legend>control legend</legend>
-				<ul class="options">
+				<legend>Boolean Choice (verbose)</legend>
+				<ol class="options">
 					<li>
-						<input type="radio" name="control_name" id="" value="option_value_1">
-						<label for="">option label 1</label>
+						<input type="radio" name="" value=""><label for="">True</label>
 					</li>
 					<li>
-						<input type="radio" name="control_name" id="" value="option_value_2">
-						<label for="">option label 2</label>
+						<input type="radio" name="" value=""><label for="">False</label>
 					</li>
-				</ul>
+				</ol>
 			</fieldset>
 
-		</form>
+			<div class="boolean-choice">
+				<input type="checkbox" name="" value="" id=""><label for="">Boolean Choice (compact)</label>
+			</div>
 
-		<!-- scripts -->
+			<div class="boolean-choice">
+				<label for="">Boolean Choice (don´t use this)</label><span class="br"><br></span>
+				<select name="">
+					<option value="">True</option>
+					<option value="">False</option>
+				</select>
+			</div>
+		</form>
 	</body>
 </html>
