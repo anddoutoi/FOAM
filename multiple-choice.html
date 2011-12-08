@@ -9,24 +9,26 @@
 		<form action="#">
 			<h1>Multiple Choice</h1>
 
-			<fieldset class="multiple-choice">
-				<legend>Multiple Choice (verbose)</legend>
-				<ol class="options">
-					<li>
-						<input type="checkbox" name="" value=""><label>Option 1</label>
-					</li>
-					<li>
-						<input type="checkbox" name="" value=""><label>Option 2</label>
-					</li>
-					<li>
-						<input type="checkbox" name="" value=""><label>Option 3</label>
-					</li>
-				</ol>
-			</fieldset>
+			<div class="multiple-choice">
+				<fieldset>
+					<legend>Multiple Choice (verbose)</legend>
+					<ol class="options">
+						<li>
+							<label for=""><input type="checkbox" name="" value="" id="">Option 1</label>
+						</li>
+						<li>
+							<label for=""><input type="checkbox" name="" value="" id="">Option 2</label>
+						</li>
+						<li>
+							<label for=""><input type="checkbox" name="" value="" id="">Option 3</label>
+						</li>
+					</ol>
+				</fieldset>
+			</div>
 
 			<div class="multiple-choice">
-				<label for="">Multiple Choice (compact)</label><span class="br"><br></span>
-				<select name="" multiple>
+				<label for="">Multiple Choice (compact)</label><br>
+				<select name="" id="" multiple>
 					<option value="">Option 1</option>
 					<option value="">Option 2</option>
 					<option value="">Option 3</option>

@@ -9,24 +9,26 @@
 		<form action="#">
 			<h1>Single Choice</h1>
 
-			<fieldset class="single-choice">
-				<legend>Single Choice (verbose)</legend>
-				<ol class="options">
-					<li>
-						<input type="radio" name="" value=""><label>Option 1</label>
-					</li>
-					<li>
-						<input type="radio" name="" value=""><label>Option 2</label>
-					</li>
-					<li>
-						<input type="radio" name="" value=""><label>Option 3</label>
-					</li>
-				</ol>
-			</fieldset>
+			<div class="single-choice">
+				<fieldset>
+					<legend>Single Choice (verbose)</legend>
+					<ol class="options">
+						<li>
+							<label for=""><input type="radio" name="" value="" id="">Option 1</label>
+						</li>
+						<li>
+							<label for=""><input type="radio" name="" value="" id="">Option 2</label>
+						</li>
+						<li>
+							<label for=""><input type="radio" name="" value="" id="">Option 3</label>
+						</li>
+					</ol>
+				</fieldset>
+			</div>
 
 			<div class="single-choice">
-				<label for="">Single Choice (compact)</label><span class="br"><br></span>
-				<select name="">
+				<label for="">Single Choice (compact)</label><br>
+				<select name="" id="">
 					<option value="">Option 1</option>
 					<option value="">Option 2</option>
 					<option value="">Option 3</option>
