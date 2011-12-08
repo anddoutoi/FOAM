@@ -1,0 +1,30 @@
+
+
+
+.boolean-choice,
+.multiple-choice,
+.single-choice,
+.single-input
+{
+	margin: 1em 0;
+}
+
+
+
+
+
+
+
+.multiple-choice fieldset,
+.single-choice   fieldset
+{
+	margin: 0;
+}
+
+.multiple-choice .options,
+.single-choice   .options
+{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
