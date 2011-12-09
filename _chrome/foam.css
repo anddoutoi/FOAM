@@ -4,7 +4,8 @@
 .boolean-choice,
 .multiple-choice,
 .single-choice,
-.single-input
+.single-input,
+.vigilance-consent
 {
 	margin: 1em 0;
 }
@@ -13,18 +14,39 @@
 
 
 
-
-
+.boolean-choice  fieldset,
 .multiple-choice fieldset,
 .single-choice   fieldset
 {
 	margin: 0;
 }
 
+.boolean-choice  .options,
 .multiple-choice .options,
 .single-choice   .options
 {
 	list-style: none;
 	margin: 0;
 	padding: 0;
+}
+
+
+
+
+
+.vigilance-consent fieldset
+{
+	overflow: hidden;
+}
+.vigilance-consent .boolean-choice
+{
+	float: left;
+	margin: 0;
+	width: 50%;
+}
+.vigilance-consent .action
+{
+	float: left;
+	width: 50%;
+	text-align: right;
 }
